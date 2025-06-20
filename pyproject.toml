@@ -1,0 +1,25 @@
+[project]
+name = "mcp-financial-analyst-deepseek"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ittichai Boonyarakthunya",email = "i.boonyarakthunya@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12,<=3.13"
+dependencies = [
+    "crewai (>=0.130.0,<0.131.0)",
+    "crewai-tools (>=0.47.1,<0.48.0)",
+    "ollama (>=0.5.1,<0.6.0)",
+    "mcp (>=1.9.4,<2.0.0)",
+    "pydantic (>=2.11.7,<3.0.0)",
+    "yfinance (>=0.2.63,<0.3.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "matplotlib (>=3.10.3,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
